@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Oswald:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Сайт веб-разработчика</title>
+</head>
+
+<body class="body">
+
+
+    <header class="header">
+        <div class="container">
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="#about" class="menu__item-link">Обо мне</a></li>
+                    <li class="menu__item"><a href="#skills" class="menu__item-link">Навыки</a></li>
+                    <li class="menu__item"><a href="#contacts" class="menu__item-link">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <div class="info">
+                <h1 class="info__title">Биктянский Владислав Игоревич</h1>
+                <h2 class="info__subtitle">Личный веб-сайт</h2>
+                <p class="info__text">
+                    Данный веб-сайт предназначен для предварительной оценки моих навыков и самого себя
+                </p>
+            </div>
+        </div>
+
+    </header>
+
+
+    <main class="main">
+        <div class="container">
+
+            <section id="about" class="about">
+                <h1 class="about__title">Обо мне</h1>
+                <figure>
+                    <img src="images/me.jpg" alt="me" class="about__img">
+                </figure>
+                <h3>Кто я? Зачем я?</h3>
+                <table id="table" class="table">
+                    <tbody>
+                        <tr>
+                            <td>ФИО</td>
+                            <td>Биктянский Владислав Игоревич</td>
+                        </tr>
+                        <tr>
+                            <td>Возраст</td>
+                            <td>18 лет</td>
+                        </tr>
+                        <tr>
+                            <td>Место учёбы</td>
+                            <td>Московский Политехнический Университет (2 курс)</td>
+                        </tr>
+                        <tr>
+                            <td>Хобби</td>
+                            <td>
+                                <p>Веб-разработка (3 года)</p>
+                                <p>"Профессиональный" игрок в DOTA 2 (1200 MMR) и CS:GO (5lvl FACEIT)</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section id="skills" class="skills">
+                <h1 class="skills__title">Навыки</h1>
+                <p class="skills__text">За 3 с лишним года я научился использовать на практике множество различных
+                    технологий:</p>
+                <ol class="skills__list">
+                    <li class="skills__item">HMTL5</li>
+                    <li class="skills__item">CSS3</li>
+                    <li class="skills__item">JavaScript</li>
+                    <li class="skills__item">SCSS/SASS</li>
+                    <li class="skills__item">Gulp4</li>
+                    <li class="skills__item">Git</li>
+                    <li class="skills__item">BitBucket</li>
+                </ol>
+            </section>
+
+            <section id="contacts" class="contacts">
+                <h1 class="contacts__title">Конаткты</h1>
+                <p class="contacts__text">Данный раздел располагает собой все возможные способы со мной связаться для
+                    будущего обсуждения ваших идей, а также их реализации.</p>
+                <div class="contacts__info">
+                    <div>
+                        <label for="tel">Номер телефона:</label>
+                        <a href="tel:+79270892878" id="tel" class="contacts__tel">+7(927)089-28-78</a>
+                    </div>
+                    <div>
+                        <label for="mail">Почта:</label>
+                        <a href="mailto:vlad.biktyansky@internet.ru" id="mail"
+                            class="contacts__mail">vlad.biktyansky@internet.ru</a>
+                    </div>
+                    <div>
+                        <label for="mail">Соц. сети:</label>
+                        <a href="https://vk.com/vaqybin" target="_blank" class="contacts__tel">ВКонтакте</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__copy">&copy; Биктянский В.И.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
