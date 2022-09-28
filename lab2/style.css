@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  display: block;
+  min-height: 100vh;
+  background-image: linear-gradient(140deg, #00ff99 0%, #5200ff 100%);
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.main__title {
+  text-align: center;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+.main__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 450px;
+  padding: 15px;
+  background-image: linear-gradient(140deg, #5200ff 0%, #00ff99 100%);
+  border-radius: 10px;
+}
+
+.form__name, .form__email {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.form__name label, .form__email label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+.form__name input, .form__email input {
+  padding: 5px 10px;
+  border: 2px solid black;
+  border-radius: 15px;
+  outline: none;
+}
+.form__where {
+  border: none;
+  margin-bottom: 10px;
+}
+.form__where legend {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.form__appeal {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.form__appeal label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.form__appeal select {
+  border: 2px solid #fff;
+  border-radius: 7px;
+  margin: 0 auto;
+  padding: 10px;
+  overflow-y: auto;
+  outline: none;
+  text-align: center;
+  background: rgba(0, 255, 153, 0.151);
+  color: white;
+}
+.form__appeal select option {
+  cursor: pointer;
+}
+.form__msg {
+  display: flex;
+  flex-direction: column;
+}
+.form__msg label {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.form__attach label {
+  font-weight: bold;
+}
+.form__btn {
+  margin-top: 15px;
+  padding: 10px 15px;
+  border-radius: 15px;
+  cursor: pointer;
+}
