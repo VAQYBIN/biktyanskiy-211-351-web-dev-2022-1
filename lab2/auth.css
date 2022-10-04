@@ -1,0 +1,55 @@
+.main {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.125rem;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  background-image: url(bg-auth.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main__title {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.main__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 10px 30px;
+  border: 3px solid white;
+  background-color: #34861f;
+  border-radius: 5px;
+}
+
+.form__login, .form__password {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.form__remember {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.form__remember label {
+  margin-left: 5px;
+}
+.form__title {
+  margin-bottom: 2px;
+}
+.form__input {
+  border: none;
+  border-radius: 3px;
+  padding: 3px 6px;
+}
+.form__enter {
+  cursor: pointer;
+  padding: 3px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+}

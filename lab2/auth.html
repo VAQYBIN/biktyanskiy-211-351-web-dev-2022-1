@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="auth.css">
+    <title>Аутентификации</title>
+</head>
+
+<body>
+    <main class="main">
+        <div class="container">
+
+            <h1 class="main__title">Аутентификация</h1>
+
+            <form action="https://httpbin.org/post" method="POST" enctype="multipart/form-data" class="main__form">
+
+                <div class="form__login">
+                    <label for="login" class="form__title">Введите логин</label>
+                    <input type="text" class="form__input" name="login" id="login" placeholder="Логин" required>
+                </div>
+
+                <div class="form__password">
+                    <label for="password" class="form__title">Введите пароль</label>
+                    <input type="password" class="form__input" name="password" id="password" placeholder="Пароль"
+                        required>
+                </div>
+
+                <div class="form__remember">
+                    <input type="checkbox" name="remember" id="remember">
+                    <label for="remember">Запомнить меня</label>
+                </div>
+
+                <button class="form__enter" type="submit">Войти</button>
+
+            </form>
+
+
+            <a href="index.html" class="link-form">Форма обратной связи</a>
+        </div>
+    </main>
+
+</body>
+
+</html>
