@@ -1,0 +1,16 @@
+.aside {
+    display: none;
+}
+
+.body>*{
+    margin-left: 0;
+    color: black;
+}
+
+.title {
+    font-family: "Noto Sans", serif;
+}
+
+.main__info {
+    color: black;
+}
