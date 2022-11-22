@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: "Noto Sans", serif;
+    color: white;
+    min-height: 100vh;
+    background-image: url(images/bg_repeater.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.body>* {
+    margin-left: 240px;
+}
+
+.container {
+    width: 1012px;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: "Spectral SC";
+    font-weight: 600;
+    font-size: 72px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.aside {
+    position: sticky;
+    top: 0;
+    left: 0;
+    float: left;
+    width: 240px;
+    height: 100vh;
+    margin-left: 0;
+    background-image: url("images/bg_repeater2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aside__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.aside__logo {
+    height: 82px;
+}
+
+.aside__nav {
+    margin-top: 142px;
+}
+
+.nav__items {
+    list-style: none;
+    text-align: center;
+}
+
+.nav__item {
+    margin-bottom: 50px;
+}
+
+.nav__item:last-child {
+    margin-bottom: 0;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: white;
+    font-family: "Spectral SC";
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.nav__link:hover {
+    color: darkgray;
+}
+
+.main__info {
+    color: #BDBDBD;
+    font-size: 20px;
+    text-align: center;
+}
+
+.main__desc {
+    margin-bottom: 14px;
+}
+
+.main__desc:last-child {
+    margin-bottom: 0;
+}
+
+.main__img {
+    display: block;
+    width: 800px;
+    margin: 35px auto;
+}
+
+.main__text {
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.players__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.list__item {
+    width: 230px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #76767611;
+    border-radius: 5px;
+    transition: .3s ease-out;
+}
+
+.list__item:hover {
+    transition: .2s ease-in-out;
+    transform: scale(1.2);
+    background: #767676;
+}
+
+.list__item-img {
+    height: 100px;
+}
+
+.list__item-name {
+    font-size: 1.25rem;
+}
