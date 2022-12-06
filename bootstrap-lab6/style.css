@@ -27,6 +27,16 @@ textarea {
     border-radius: 10px;
 }
 
+.easter-egg {
+    color: white;
+    text-decoration: none;
+}
+
+.easter-egg:hover {
+    color: white;
+    cursor: default;
+}
+
 @media screen and (max-width: 767px) {
     .main img {
         height: 90px;
